@@ -24,25 +24,31 @@
                     <!--INPUT-->
                     <div class="d-flex justify-content-around">
                         <!--Nome e cognome-->
-                        <div>
+                        <div class="special">
                             <p>Nome e Cognome</p>
                             <input type="text" id="inputClient">
                         </div>
                         <!--Km da percorrere-->
-                        <div>
+                        <div class="special">
                             <p>Inserire i Km da percorrere</p>
                             <input type="text" id="inputKm">
                         </div>
                         <!--Fascia d'età-->
-                        <div>
+                        <div class="special">
                             <p>Selezionare la fascia di età</p>
-                            <input type="text" id="inputage">
+                            <select class="form-select" id="inputGroupSelect02">
+                                <option selected>Seleziona un opzione...</option>
+                                <option value="1">Minorenne (18-)</option>
+                                <option value="2">Anziano (65+)</option>
+                                <option value="3">Adulto (19-65)</option>
+                            </select>
                         </div>
                     </div>
                     <!--Button-->
-                    <div class="d-flex">
-                        <button>Genera</button>
-                        <button>Annulla</button>
+                    <div class="d-flex justify-content-center m-3">
+                        <button class="pulsante border border-warning"
+                            onclick="Calculator(); return false">Genera</button>
+                        <button class="pulsante border border-success">Annulla</button>
                     </div>
                 </form>
             </div>

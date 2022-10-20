@@ -1,24 +1,37 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 
-.container{
+.container {
     background-color: #b91450;
     width: 80%;
     height: auto;
     margin: auto;
 }
 
-form p{
+form p {
     color: #b91450;
     text-align: center;
 }
 
+.special {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-form input{
+form input {
     border-radius: 3px;
     border: 1px solid #b91450;
+}
+
+
+.pulsante {
+    margin: 1rem;
+    padding: 3px 20px 3px 20px;
+    background-color: rgb(199, 199, 199);
+    color: #b91450;
 }
