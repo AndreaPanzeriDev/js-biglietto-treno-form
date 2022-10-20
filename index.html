@@ -17,7 +17,7 @@
         <!--Calcola il prezzo del biglietto-->
         <section>
 
-            <h1 class="text-center text-white">Calcola il prezzo del tuo biglietto</h1>
+            <h1 class="text-center text-white">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
 
             <div class="bg-white rounded pb-2">
                 <form action="">
@@ -36,7 +36,7 @@
                         <!--Fascia d'età-->
                         <div class="special">
                             <p>Selezionare la fascia di età</p>
-                            <select class="form-select" id="inputGroupSelect02">
+                            <select class="" id="inputGroupSelect02">
                                 <option selected>Seleziona un opzione...</option>
                                 <option value="1">Minorenne (18-)</option>
                                 <option value="2">Anziano (65+)</option>
@@ -53,6 +53,41 @@
                 </form>
             </div>
 
+        </section>
+
+        <!--il tuo biglietto-->
+        <section class="mt-5">
+
+            <h1 class="text-white text-center">IL TUO BIGLIETTO</h1>
+            <div class="bg-white rounded-2 px-5 py-3">
+                <div>
+                    <h5><b>DETTAGLI BIGLIETTO</b></h5>
+                </div>
+                <div class="d-flex h-25">
+                    <div class="w-25 bg-secondary">
+                        <h5><b>PASSEGERO</b></h5>
+                        <h6 id="outputName"></h6>
+                    </div>
+                    <div class="w-75 d-flex justify-content-around">
+                        <div class="special">
+                            <div class="fw-bold">Offerta</div>
+                            <div id="outputOffer"></div>
+                        </div>
+                        <div class="special">
+                            <div class="fw-bold">Carrozza</div>
+                            <div id="outputWagon"></div>
+                        </div>
+                        <div class="special">
+                            <div class="fw-bold">Codice CP</div>
+                            <div id="outputCp"></div>
+                        </div>
+                        <div class="special">
+                            <div class="fw-bold">Costo Biglietto</div>
+                            <div id="outputPrice"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 
