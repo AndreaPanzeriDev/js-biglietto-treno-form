@@ -6,8 +6,19 @@
 
 
 .container{
-    background-color: red;
+    background-color: #b91450;
     width: 80%;
     height: auto;
     margin: auto;
+}
+
+form p{
+    color: #b91450;
+    text-align: center;
+}
+
+
+form input{
+    border-radius: 3px;
+    border: 1px solid #b91450;
 }
