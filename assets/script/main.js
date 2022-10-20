@@ -25,12 +25,12 @@ function Calculator(){
         case 1:
             Price = (Km * KmPrice) * 0.8;
             console.log(Price);
-            document.getElementById('outputPrice').innerHTML = Price.toFixed(2);
+            document.getElementById('outputPrice').innerHTML = Price.toFixed(2) + '$';
             break;
         case 2:
             Price = (Km * KmPrice) * 0.6;
             console.log(Price);
-            document.getElementById('outputPrice').innerHTML = Price.toFixed(2);
+            document.getElementById('outputPrice').innerHTML = Price.toFixed(2) + '$';
             break;
         
         case 3:
