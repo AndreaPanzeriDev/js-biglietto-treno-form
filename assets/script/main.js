@@ -1,6 +1,16 @@
 
 
+//aggiorno la pagina
+function refreshPage(){
+    window.location.reload()
+}
 
+
+
+
+
+
+//calcolo prezzo biglietto
 function Calculator(){
     const KmPrice = 0.21;
     let NameSurname = document.getElementById("inputClient").value;
